@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyReplicationInstance&k=1:
+  /?Action=ModifyReplicationInstance:
     get:
       summary: ' Modify Replication Instance '
       description: Modifies the replication instance to apply new settings
