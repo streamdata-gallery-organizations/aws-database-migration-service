@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopReplicationTask&k=1:
+  /?Action=StopReplicationTask:
     get:
       summary: ' Stop Replication Task '
       description: Stops the replication task
