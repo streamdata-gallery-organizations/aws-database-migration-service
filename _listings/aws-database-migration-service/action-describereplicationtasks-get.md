@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReplicationTasks&k=1:
+  /?Action=DescribeReplicationTasks:
     get:
       summary: ' Describe Replication Tasks '
       description: Returns information about replication tasks for your account in
