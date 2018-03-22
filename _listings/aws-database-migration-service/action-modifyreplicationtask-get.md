@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyReplicationTask&k=1:
+  /?Action=ModifyReplicationTask:
     get:
       summary: ' Modify Replication Task '
       description: Modifies the specified replication task
