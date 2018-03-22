@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReplicationTask&k=1:
+  /?Action=DeleteReplicationTask:
     get:
       summary: ' Delete Replication Task '
       description: Deletes the specified replication task
