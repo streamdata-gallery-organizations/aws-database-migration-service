@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportCertificate&k=1:
+  /?Action=ImportCertificate:
     get:
       summary: ' Import Certificate '
       description: Uploads the specified certificate
