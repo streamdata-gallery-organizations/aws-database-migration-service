@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationTask&k=1:
+  /?Action=CreateReplicationTask:
     get:
       summary: ' Create Replication Task '
       description: Creates a replication task using the specified parameters
