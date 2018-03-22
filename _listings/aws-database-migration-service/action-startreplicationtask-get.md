@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartReplicationTask&k=1:
+  /?Action=StartReplicationTask:
     get:
       summary: ' Start Replication Task '
       description: Starts the replication task
