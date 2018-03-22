@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationSubnetGroup&k=1:
+  /?Action=CreateReplicationSubnetGroup:
     get:
       summary: ' Create Replication Subnet Group '
       description: Creates a replication subnet group given a list of the subnet IDs
