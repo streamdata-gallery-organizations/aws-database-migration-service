@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTableStatistics&k=1:
+  /?Action=DescribeTableStatistics:
     get:
       summary: ' Describe Table Statistics '
       description: Returns table statistics on the database migration task, including
