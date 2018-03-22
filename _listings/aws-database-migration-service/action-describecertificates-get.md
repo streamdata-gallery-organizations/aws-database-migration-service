@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCertificates&k=1:
+  /?Action=DescribeCertificates:
     get:
       summary: ' Describe Certificates '
       description: Provides a description of the certificate
