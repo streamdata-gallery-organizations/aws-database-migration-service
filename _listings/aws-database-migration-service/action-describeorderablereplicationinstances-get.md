@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeOrderableReplicationInstances&k=1:
+  /?Action=DescribeOrderableReplicationInstances:
     get:
       summary: ' Describe Orderable Replication Instances '
       description: Returns information about the replication instance types that can
