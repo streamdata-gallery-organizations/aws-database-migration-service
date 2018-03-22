@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEndpointTypes&k=1:
+  /?Action=DescribeEndpointTypes:
     get:
       summary: ' Describe Endpoint Types '
       description: Returns information about the type of endpoints available
