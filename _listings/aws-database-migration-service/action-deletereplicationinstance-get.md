@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReplicationInstance&k=1:
+  /?Action=DeleteReplicationInstance:
     get:
       summary: ' Delete Replication Instance '
       description: Deletes the specified replication instance
