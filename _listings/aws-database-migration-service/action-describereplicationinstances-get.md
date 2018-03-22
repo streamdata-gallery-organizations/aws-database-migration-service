@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReplicationInstances&k=1:
+  /?Action=DescribeReplicationInstances:
     get:
       summary: ' Describe Replication Instances '
       description: Returns information about replication instances for your account
