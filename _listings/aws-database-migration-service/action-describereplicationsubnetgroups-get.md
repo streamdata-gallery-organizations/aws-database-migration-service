@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReplicationSubnetGroups&k=1:
+  /?Action=DescribeReplicationSubnetGroups:
     get:
       summary: ' Describe Replication Subnet Groups '
       description: Returns information about the replication subnet groups
