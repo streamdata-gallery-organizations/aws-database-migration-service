@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReplicationSubnetGroup&k=1:
+  /?Action=DeleteReplicationSubnetGroup:
     get:
       summary: ' Delete Replication Subnet Group '
       description: Deletes a subnet group
